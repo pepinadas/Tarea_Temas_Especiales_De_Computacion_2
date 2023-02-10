@@ -29,3 +29,9 @@ class Automovil:
     def __str__(self):
         resultado = self.__marca + "," + self.__sub_marca + "," + str(self.__anio) + "," + str(self.__kms) + "," + self.__transmision
         return resultado
+    
+    def avanzar(self, km):
+        print("El auto marca " + self.__marca + " esta avanzando a " + str(km) + " kms")
+        
+    def frenar(self):
+        print("El auto marca " + self.__marca + " esta frenando")
